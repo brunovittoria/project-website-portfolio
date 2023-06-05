@@ -1,0 +1,272 @@
+
+
+
+/* (MEDIA QUERIES) Small phones, tablets, large smartphones */
+
+@media (max-width: 768px) {
+
+    /* HOME */
+
+    nav {
+        height: 68px;
+        margin-bottom: 52px;
+    }
+
+    .nav-bar .my-logo {
+        font-size: 25px;
+    }
+
+    .menu-links {   
+        font-size: 4px;
+        width: 70%;
+    }
+
+    .btn-ctc {
+        margin-right: 15px;
+    }
+
+    .about-me {
+        font-size: 18px;
+    }
+
+    .inner-header {
+        height:63vh;
+    }
+
+    /* SOFT SKILLS */
+
+    .container-soft-skills {
+        padding: 8px 0;
+    }
+
+    .soft-skills {
+        padding: 40px 0;
+        margin: 0.2em 0.4em 0.8em 4.8em;
+    }
+
+    .heading-secondary {
+        font-size: 35px;
+    }
+
+    .skill-box {
+        margin-left: 8px;
+    }
+
+    .skill-number {
+        font-size: 59px;
+        font-weight: 400;
+        color: #ddd;
+        margin-bottom: 1.2rem;
+    }
+
+    .heading-tertiary {
+        font-size: 30px;
+    }
+
+    .skill-description {
+        font-size: 20.8px;
+        line-height: 1.8;
+    }
+
+    /* TECH STACK */
+
+    .language {
+        font-size: 13px;
+    }
+    
+    /* PROJECTS */
+
+    .project-wrapper {
+        width: 450px;
+        height: 250px;
+    }
+    
+    .project-description {
+        margin-right: 60px;
+    }
+
+    .project-description-title {
+        font-size: 28px;
+    }
+
+    .project-description-sub-title {
+        font-size: 12px;
+    }
+
+    .project-description-para {
+        font-size: 13px;
+    }
+}
+
+/* (MEDIA QUERIES) SMALL PHONES */
+
+@media (max-width: 480px) {
+    
+    /* GENERAL */
+    html,
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .grid {
+        row-gap: 4.8rem;
+    }
+
+    .grid--2-cols,
+    .grid--3-cols, 
+    .grid--4-cols {
+        grid-template-columns: 1fr;
+    }
+
+    /* HOME */
+
+    .nav-bar {
+        margin-bottom: 5px;
+    }
+
+    .link-menu {
+        display: none;
+    }
+
+    .nav-bar .my-logo {
+        width: 230px;
+        margin-top: 32px;
+        font-size: 22px; 
+    }
+
+    .menu-links .btn-ctc {
+        padding: 6px 25px;
+        margin-left: 70px;
+        font-size: 17px;
+    }
+
+    .avatar {
+        width: 25px;
+    }
+
+    .greeting {
+        font-size: 28px;
+    }
+
+    .about-me {
+        font-size: 13px;
+    }
+
+    .btn-wrapper {
+        margin-top: 55px;
+    }
+
+    .btn-wrapper {
+        width: 100%;
+        height: 15vh;
+    }
+      
+    .btn {
+        margin-top: 140px;
+        width: 200px;
+        height: 60px;
+    }
+      
+    .btn span {
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: top 0.2s;
+    }
+
+    .banner-container {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        margin-top: -1.5em;
+    }
+    
+    .banner-img {
+        margin-top: 55px;
+        max-width: 250px;
+    }
+
+
+    
+    /* MY SOFT-SKILLS */
+
+
+    .soft-skills {
+        padding: 40px 0;
+        margin: auto 15px auto 15px;
+    }
+
+    .subheading {
+        font-size: 20px;
+    }
+
+    .heading-secondary {
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+
+    .skill-box {
+        margin-left: 8px;
+    }
+
+    .skill-number {
+        font-size: 59px;
+        font-weight: 400;
+        color: #ddd;
+        margin-bottom: 1.2rem;
+    }
+
+    .heading-tertiary {
+        font-size: 30px;
+    }
+
+    .skill-description {
+        font-size: 20.8px;
+        line-height: 1.8;
+    }
+
+    .skill-img-box:nth-child(2) { /* We are altering the order of the circles */
+        grid-row: 1;
+    }
+
+    .skill-img-box:nth-child(6) {
+        grid-row: 5;
+    }
+
+    .skill-img-box {
+        max-width: 15em;
+        max-height: 25em;
+        margin: 27px 100px 27px 100px;
+        
+    }
+    
+    .skill-img {
+        width: 25%;
+    }
+
+    /* LANGUAGES */
+
+    .languages {
+        padding-bottom: 60px;
+    }
+
+    .language {
+        margin-top: 90px;
+        margin-bottom: -100px;
+    }
+
+    .tech-img {
+        width: 70px;
+    }
+
+    /* PROJECTS */
+
+    .projects-title {
+        margin-bottom: 35px;
+    }
+
+
+
+}
