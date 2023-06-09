@@ -7,6 +7,8 @@
     <title>Bruno Vittoria</title>
     <link rel="stylesheet" href="/assets/scss/style.css">
     <script src="https://kit.fontawesome.com/a9c83faf0b.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/assets/img/logo/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/img/logo/favicon.ico" type="image/x-icon">
  </head>
 
   <body>
@@ -24,7 +26,7 @@
              <a href="#skills" class="link-menu link-hover-effect link-hover-effect-white">Soft Skills</a>
              <a href="#tech-stack" class="link-menu link-hover-effect link-hover-effect-white">Languages</a>
              <a href="#my-work" class="link-menu link-hover-effect link-hover-effect-white">Projects</a>
-             <button class="btn-ctc">Contact</button>
+             <button onclick="enviarEmail()" class="btn-ctc">Contact</button>
           </div>
         </nav>
   
@@ -38,22 +40,22 @@
           </h1>
   
           <p class="about-me">I'm a 
-            <span class="ffjs">full-stack software engineer</span> 
+            <span class="ffjs">front-end developer</span> 
             with a strong passion for building<br>responsive and performant web applications with great user
             <br>experiences that positively impacts the world.
           </p>
 
           <div class="about-me-links">
 
-            <a href="" class="about-me-link">
+            <a href="https://www.linkedin.com/in/bruno-vittoria" target="_blank" class="about-me-link">
               <i class="fa-brands fa-linkedin-in"></i>
             </a>
 
-            <a href="" class="about-me-link">
+            <a href="https://github.com/brunovittoria" target="_blank" class="about-me-link">
               <i class="fa-brands fa-github"></i>
             </a>
 
-            <a href="" class="about-me-link">
+            <a href="mailto:brunogun1999@gmail.com" target="_blank" class="about-me-link">
               <i class="fa-regular fa-envelope"></i>
             </a>
 
@@ -64,7 +66,7 @@
           </div>
          
           <div class="btn-wrapper">
-            <button class="btn">
+            <button onclick="enviarEmail()" class="btn">
               <span class="btn-text-one">Contact Me</span>
               <span class="btn-text-two">Let's Work Together</span>
             </button>
@@ -74,7 +76,7 @@
         <div class="inner-header flex">
 
           <figure class="banner-container">
-            <img src="/imgs-soft-skills/banner-3.png" class="banner-img" alt="banner">
+            <img src="/assets/img/banner-3.png" class="banner-img" alt="banner">
            </figure>
         <!--Just the logo.. Don't mind this-->
         
@@ -120,7 +122,7 @@
            <h3 class="heading-tertiary">Good Comunication</h3>
 
            <p class="skill-description">
-            Iam a good comunicator, because of...
+            I am a good communicator because before taking any decision I try to understand if everything is in line with my group of colleagues...
            </p>
           </div>
 
@@ -139,7 +141,7 @@
            <h3 class="heading-tertiary">A Leader</h3>
 
            <p class="skill-description">
-            Iam a good leader, because of...
+            I am a good Leader, because since I was 17 years old, I was already the leader of a group of people in a technology and cosmetics company...
            </p>
 
           </div>
@@ -152,7 +154,7 @@
            <h3 class="heading-tertiary">Problem Solver</h3>
 
            <p class="skill-description">
-            Iam a good at problema solving, because of...
+            Iam good at problema solving, because I truly believe that every problem regardless of its size, someone has been through it so I can too...
            </p>
           </div>
 
@@ -190,8 +192,8 @@
            <span class="language-name">Javascript</span>
           </div>
           <div class="language">
-           <img src="/assets/img/tech-stack/boot2.png" class="tech-img" alt="Bootstrap">
-           <span class="language-name">Bootstrap</span>
+           <img src="/assets/img/tech-stack/react 4.png" class="tech-img" alt="Bootstrap">
+           <span class="language-name">React.js</span>
           </div>
 
         </div>
@@ -199,17 +201,13 @@
         <div class="tech-img-box">
 
           <div class="language">
-           <img src="/assets/img/tech-stack/react 4.png" class="tech-img" alt="React.js">
-           <span class="language-name">React.js</span>
-          </div>
-          <div class="language">
-           <img src="/assets/img/tech-stack/node.png" class="tech-img" alt="Node.js">
-           <span class="language-name">Node.js</span>
-          </div>
-          <div class="language">
-           <img src="/assets/img/tech-stack/next.png" class="tech-img" alt="Next.js">
+           <img src="/assets/img/tech-stack/next.png" class="tech-img" alt="React.js">
            <span class="language-name">Next.js</span>
           </div>
+          <div class="language">
+            <img src="/assets/img/tech-stack/firebase.png" class="tech-img" alt="React.js">
+            <span class="language-name">Firebase</span>
+           </div>
           <div class="language">
            <img src="/assets/img/tech-stack/git3.png" class="tech-img" alt="Git">
            <span class="language-name">Git</span>
@@ -239,16 +237,16 @@
               <div class="project-wrapper">
                 <img src="assets/img/projects/omnifood screen.png" class="project-img" alt="Omnifood Landing Page">
                 <div class="project-description">
-                  <h3 class="project-description-title">Omnifood Landing Page</h3>
+                  <h3 class="project-description-title">Omnifood Website</h3>
                   <h4 class="project-description-sub-title">
                     HTML, CSS
                   </h4>
-                  <p class="project-description-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus accusantium magni natus aperiam, blanditiis maxime nulla animi quo a magnam dolorem quasi est corrupti soluta minus illo? Ratione, eaque asperiores?</p>
+                  <p class="project-description-para">In this project I rebuilt a fitness food website and used simple technologies like HTML and CSS</p>
                   <div class="project-description-links">
-                    <a href="https://www.github.com/yourlink" target="_blank" class="project-description-link">
+                    <a href="https://github.com/brunovittoria/project-omnifood" target="_blank" class="project-description-link">
                       <i class="fab fa-github"></i>
                     </a>
-                    <a href="www.mysite.com" target="_blank" class="project-description-link">
+                    <a href="https://project-bruno-vittoria-omnifood.netlify.app/" target="_blank" class="project-description-link">
                       <i class="fas fa-link"></i>
                     </a>
                   </div>
@@ -261,13 +259,13 @@
             <li class="project">
 
               <div class="project-wrapper">
-                <img src="/assets/img/projects/omnifood screen.png" class="project-img" alt="Omnifood Landing Page">
+                <img src="/assets/img/projects/PRIMEFLIX PRINT.png" class="project-img" alt="Omnifood Landing Page">
                 <div class="project-description">
-                  <h3 class="project-description-title">Omnifood Landing Page</h3>
+                  <h3 class="project-description-title">Primeflix App</h3>
                   <h4 class="project-description-sub-title">
-                    HTML, CSS
+                    HTML, CSS, JAVASCRIPT, REACT  
                   </h4>
-                  <p class="project-description-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus accusantium magni natus aperiam, blanditiis maxime nulla animi quo a magnam dolorem quasi est corrupti soluta minus illo? Ratione, eaque asperiores?</p>
+                  <p class="project-description-para">In this application I integrated with an API that will pull the data of the films that are on posters in the cinema and will appear in my application, in addition we can favorite the films in a section "my films" and when accessing the film we will see the description of it and we can see a trailer of it</p>
                   <div class="project-description-links">
                     <a href="https://www.github.com/yourlink" target="_blank" class="project-description-link">
                       <i class="fab fa-github"></i>
@@ -285,18 +283,18 @@
             <li class="project">
 
               <div class="project-wrapper">
-                <img src="/assets/img/projects/omnifood screen.png" class="project-img" alt="Omnifood Landing Page">
+                <img src="/assets/img/projects/todolist.png" class="project-img" alt="Omnifood Landing Page">
                 <div class="project-description">
-                  <h3 class="project-description-title">Omnifood Landing Page</h3>
+                  <h3 class="project-description-title">To do List</h3>
                   <h4 class="project-description-sub-title">
-                    HTML, CSS
+                    HTML, CSS, JAVASCRIPT, REACT, FIREBASE
                   </h4>
-                  <p class="project-description-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus accusantium magni natus aperiam, blanditiis maxime nulla animi quo a magnam dolorem quasi est corrupti soluta minus illo? Ratione, eaque asperiores?</p>
+                  <p class="project-description-para">In this project I made a Tasks App that saves the tasks of a certain user within the Firebase database.</p>
                   <div class="project-description-links">
-                    <a href="https://www.github.com/yourlink" target="_blank" class="project-description-link">
+                    <a href="https://github.com/brunovittoria/project-to-do-firebase" target="_blank" class="project-description-link">
                       <i class="fab fa-github"></i>
                     </a>
-                    <a href="www.mysite.com" target="_blank" class="project-description-link">
+                    <a href="https://project-bruno-vittoria-todo-firebase.netlify.app/" target="_blank" class="project-description-link">
                       <i class="fas fa-link"></i>
                     </a>
                   </div>
@@ -328,9 +326,9 @@
         </a>
 
         <div class="footer-social-links">
-          <a href="" target="blank" class="footer-link link-hover-effect link-hover-effect-white">Github</a>
-          <a href="" target="blank" class="footer-link link-hover-effect link-hover-effect-white">Linkedin</a>
-          <a href="mailto:brunovittoria1999@hotmail.com" target="blank" class="footer-link link-hover-effect link-hover-effect-white">Email</a>
+          <a href="https://github.com/brunovittoria" target="blank" class="footer-link link-hover-effect link-hover-effect-white">Github</a>
+          <a href="https://www.linkedin.com/in/bruno-vittoria" target="blank" class="footer-link link-hover-effect link-hover-effect-white">Linkedin</a>
+          <a href="mailto:brunogun1999@gmail.com" target="blank" class="footer-link link-hover-effect link-hover-effect-white">Email</a>
           <a href="/assets/docs/Example Resume.pdf" target="blank" class="footer-link link-hover-effect link-hover-effect-white">Resume</a>
         </div>
 
